@@ -3,13 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,400;1,200;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js"></script>
     <title>Welcome to my homepage!</title>
 </head>
+
 <body>
-    <p>Hello! I'm Martha. I like making things and writing. I write a blog called <a href="https://artistsguidetocomputation.substack.com/" target="_blank">An Artist's Guide to Computation</a>, and I'm currently participating in <a href="https://grayarea.org/learn/immersive/" target="_blank">Gray Area's Creative Code Immersive</a>.</p>
-    <p>Here are some things I am making these days:</p>
-    <ul>
-        <li><a href="https://mhipley.github.io/triptych/" target="_blank">Pure HTML & CSS Triptych</a></li>
-    </ul>
+    <div id="header">
+        <a href="mailto:info@marthahipley.com">info@marthahipley.com</a>
+    </div>
+    <div class="wrapper">
+        <div id="about">
+            <h1>Hello!</h1>
+            <p> I like making things and writing. I write a newsletter called <a href="https://artistsguidetocomputation.substack.com/" target="_blank">An Artist's Guide to Computation</a>, and I'm currently participating in <a href="https://grayarea.org/learn/immersive/" target="_blank">Gray Area's Creative Code Immersive</a>.</p>
+            <p>Here are some things I am making these days:</p>
+        </div>
+        <div id="projects">
+            <div class="project">
+                <h3>Trees Please</h3>
+                <p>In collaboration w/ <a href="https://github.com/linhphaaam" target="_blank">@linhphaaam</a>, <a href="https://github.com/hackerharker" target="_blank">@hackerharker</a>, and <a href="https://github.com/ez-li" target="_blank">@ez-li</a>, this project uses D3 and the Mapbox web services API to manupulate a dataset of trees from DataSF and plot the trees on a map. When a visitor activates their location, they are given walking directions to a random tree, along with the name of the tree and a photo.</p>
+                <a href="https://github.com/ez-li/trees-please" target="_blank">repo</a>
+            </div>            
+            <div class="project">
+                <h3>Fantasy Weapon Generator</h3>
+                <p>a random generator to outfit you for your next DnD adventure.</p>
+                <a href="https://mhipley.github.io/triptych/" target="_blank">live link</a>
+                <a href="" target="_blank">repo</a>
+            </div>            
+            <div class="project">
+                <h3>water triptych</h3>
+                <p>A pure HTML & CSS triptych on the theme of water.</p>
+                <a href="https://mhipley.github.io/triptych/" target="_blank">live link</a>
+                <a href="https://github.com/mhipley/triptych" target="_blank">repo</a>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
 </body>
 </html>
